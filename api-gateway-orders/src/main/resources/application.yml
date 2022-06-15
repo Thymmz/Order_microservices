@@ -1,0 +1,50 @@
+server:
+  port: 9191
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        #Route Mapping
+        - id: orderLoaderService               #RouteIdentifier
+          uri: http://localhost:9001/       #Respective microservice URL which needs to be mapped
+          #Request Context Path Mapping
+          predicates:
+            - Path=/api/v1/orderloader/**
+
+          #Route Mapping - With out Filters - Version 2 Request
+        - id: orderValidationService
+          uri: http://localhost:9002/
+          predicates:
+            - Path=/api/v1/ordersValidation/**
+
+          #Route Mapping - With Filters - Version 1 Request
+        - id: orderCreateService
+          uri: http://localhost:9003/
+          predicates:
+            - Path=/api/v1/orders/**
+
+        - id: inventoryCheckService
+          uri: http://localhost:9004/
+          predicates:
+            - Path=/api/v1/inventory/**
+
+        - id: invoiceCreateService
+          uri: http://localhost:9005/
+          predicates:
+            - Path=/api/v1/invoice/**
+
+        - id: paymentService
+          uri: http://localhost:9006/
+          predicates:
+            - Path=//api/v1/payment/**
+
+        - id: orderConfirmationService
+          uri: http://localhost:9007/
+          predicates:
+            - Path=/api/v1/orders/**
+
+        - id: inventoryQuantityService
+          uri: http://localhost:9008/
+          predicates:
+            - Path=/api/v1/inventoryQuantity/**

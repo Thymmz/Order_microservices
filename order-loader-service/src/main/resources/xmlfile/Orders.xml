@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Orders>
+    <Order>
+        <orderId>1</orderId>
+        <itemId>1</itemId>
+        <quantity>3</quantity>
+        <amount>243</amount>
+        <confirmationStatus>Confirmed</confirmationStatus>
+        <address>78 Church Court Belmont, MA 02478</address>
+    </Order>
+    <Order>
+        <orderId>2</orderId>
+        <itemId>2</itemId>
+        <quantity>10</quantity>
+        <amount>141</amount>
+        <confirmationStatus>Confirmed</confirmationStatus>
+        <address>138 High Noon Street Reisterstown, MD 21136</address>
+    </Order>
+    <Order>
+        <orderId>3</orderId>
+        <itemId>3</itemId>
+        <quantity>4</quantity>
+        <amount>923</amount>
+        <confirmationStatus>NotConfirmed</confirmationStatus>
+        <address>23 Saxton St. Freeport, NY 11520</address>
+    </Order>
+    <Order>
+        <orderId>4</orderId>
+        <itemId>4</itemId>
+        <quantity>2</quantity>
+        <amount>976</amount>
+        <confirmationStatus>Confirmed</confirmationStatus>
+        <address>3 Arlington Street Green Cove Springs, FL 32043</address>
+    </Order>
+    <Order>
+        <orderId>5</orderId>
+        <itemId>1</itemId>
+        <quantity>8</quantity>
+        <amount>847</amount>
+        <confirmationStatus>NotConfirmed</confirmationStatus>
+        <address>41 Ocean Ave. Ontario, CA 91762</address>
+    </Order>
+    <Order>
+        <orderId>6</orderId>
+        <itemId>2</itemId>
+        <quantity>2</quantity>
+        <amount>136</amount>
+        <confirmationStatus>Confirmed</confirmationStatus>
+        <address>783 Briarwood Ave. Mooresville, NC 28115</address>
+    </Order>
+    <Order>
+        <orderId>7</orderId>
+        <itemId>3</itemId>
+        <quantity>9</quantity>
+        <amount>505</amount>
+        <confirmationStatus>Confirmed</confirmationStatus>
+        <address>7 Gates Ave. Crystal Lake, IL 60014</address>
+    </Order>
+    <Order>
+        <orderId>8</orderId>
+        <itemId>4</itemId>
+        <quantity>2</quantity>
+        <amount>316</amount>
+        <confirmationStatus>NotConfirmed</confirmationStatus>
+        <address>121 Riverview St. Sterling Heights, MI 48310</address>
+    </Order>
+    <Order>
+        <orderId>9</orderId>
+        <itemId>1</itemId>
+        <quantity>5</quantity>
+        <amount>938</amount>
+        <confirmationStatus>Confirmed</confirmationStatus>
+        <address>801 Sunbeam Drive Pensacola, FL 32503</address>
+    </Order>
+    <Order>
+        <orderId>10</orderId>
+        <itemId>2</itemId>
+        <quantity>3</quantity>
+        <amount>747</amount>
+        <confirmationStatus>NotConfirmed</confirmationStatus>
+        <address>157 Bridle Ave. Monsey, NY 10952</address>
+    </Order>
+</Orders>

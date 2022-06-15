@@ -1,0 +1,5 @@
+INSERT INTO inventory(itemId, quantity, product_name, amount) VALUES
+(1,5,'Apple', 35),
+(2,200,'Toaster', 15),
+(3,10,'Brush', 46),
+(4,100,'Shampoo', 72);

@@ -1,0 +1,8 @@
+    <Order>
+        <ordersId>11</ordersId>
+        <itemId>3</itemId>
+        <quantity>9</quantity>
+        <amount>505</amount>
+        <confirmationStatus>Confirmed</confirmationStatus>
+        <address>7 Gates Ave. Crystal Lake, IL 60014</address>
+    </Order>
